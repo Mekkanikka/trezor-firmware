@@ -16,7 +16,7 @@ variables:
   MAKEFLAGS: "-j10"
 
   # Apply timeout to pytest-based tests
-  PYTEST_TIMEOUT: "300"
+  PYTEST_TIMEOUT: "3000"
 
   # Pipenv cache
   PIPENV_VENV_IN_PROJECT: "true"
