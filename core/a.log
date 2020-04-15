@@ -1,382 +1,1479 @@
-375874536590 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'bootscreen' at 7fba938b1f40>
-375874577788 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba938ecd80>
-375874580239 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
-375874580333 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7fba938f0160>
-375874580432 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7fba938f0160>
-375874580453 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375874591761 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
-375877223103 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
-375877223215 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7fba938f2f60>
-375877223326 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7fba938f2f60>
-375877223347 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877223372 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
-375877231613 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <WipeDevice>
-375877231989 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'wipe_device' at 7fba93864e60>
-375877232029 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
-375877233083 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
-375877234718 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
-375877236270 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkGetState>
-375877236393 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkGetState' at 7fba93882c20>
-375877239385 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
-375877241296 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877242299 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877242321 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba938ecd80>
-375877242350 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkGetState' at 7fba93882c20>
-375877242374 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 write: <DebugLinkState>
-375877248813 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375877248950 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba93869ee0>
-375877248976 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba93869ee0>
-375877261885 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375877263074 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93876400>
-375877288810 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'wipe_device' at 7fba93864e60>
-375877288850 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93879f40>
-375877298994 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
-375877303650 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
-375877303763 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7fba93866440>
-375877303874 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7fba93866440>
-375877303895 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877303918 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
-375877312556 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <LoadDevice>
-375877314791 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'load_device' at 7fba93883fa0>
-375877314872 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
-375877315905 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
-375877316951 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
-375877318210 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkGetState>
-375877318314 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkGetState' at 7fba93895aa0>
-375877322074 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
-375877324113 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877325105 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877325127 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93879f40>
-375877325155 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkGetState' at 7fba93895aa0>
-375877325180 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 write: <DebugLinkState>
-375877331542 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375877331680 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba9386e440>
-375877331706 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba9386e440>
-375877344591 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375877345779 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938908a0>
-375877345878 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'load_device' at 7fba93883fa0>
-375877345902 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba9387a720>
-375877356309 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
-375877360963 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
-375877361090 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7fba93865260>
-375877361243 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7fba93865260>
-375877361264 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877361287 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
-375877369530 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <ClearSession>
-375877369633 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_ClearSession' at 7fba93865460>
-375877369656 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_ClearSession' at 7fba93865460>
-375877369675 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877369699 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
-375877374294 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
-375877374389 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7fba93862c00>
-375877374547 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7fba93862c00>
-375877374570 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877374594 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
-375877654962 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CMD_INIT
-375877656091 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_INFO
-375877658247 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938991e0>
-375877659287 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_VERSION
-375877661437 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_RESET
-375877663873 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375877664053 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938ab680>
-375877664093 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938ab680>
-375877664125 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877668546 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938a20c0>
-375877671448 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877672457 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877672482 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba9387a720>
-375877679959 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375877681417 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938a20c0>
-375877681453 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba9388d4e0>
-375877681487 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938a20c0>
-375877706439 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93897d20>
-375877706521 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375877710423 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375877711514 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375877711632 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938b9260>
-375877711657 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938b9260>
-375877711676 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375877717293 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938ac3c0>
-375877719267 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877720269 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375877720292 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba9388d4e0>
-375877727679 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375877728694 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938ac3c0>
-375877728719 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93884180>
-375877728740 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938ac3c0>
-375877964142 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93899920>
-375877964223 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375877964605 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375877967091 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b72c0>
-375877969063 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938baca0>
-375877971048 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938be2e0>
-375877973004 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c1720>
-375877975875 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c5c20>
-375877977840 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cbdc0>
-375877979786 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cef80>
-375877981778 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d3440>
-375877983736 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d68a0>
-375877986609 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938de7a0>
-375877988541 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e6e60>
-375877991564 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e9aa0>
-375877991631 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878005597 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938efb40>
-375878008886 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938f12c0>
-375878008958 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878009308 [35mapps.webauthn.fido2[0m [36mINFO[0m _AUTH_CHECK_ONLY
-375878013495 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938fd260>
-375878015467 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938fe5c0>
-375878015534 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878015881 [35mapps.webauthn.credential[0m [33mWARNING[0m invalid key handle
-375878015905 [35mapps.webauthn.credential[0m [33mWARNING[0m invalid key path
-375878020577 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93909a60>
-375878022610 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba9390b0c0>
-375878022680 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878023006 [35mapps.webauthn.credential[0m [33mWARNING[0m invalid key handle
-375878023029 [35mapps.webauthn.credential[0m [33mWARNING[0m invalid key path
-375878027405 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93912960>
-375878027518 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375878027931 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375878029290 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375878029453 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba9391b8e0>
-375878029502 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba9391b8e0>
-375878029529 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375878035228 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba93918a40>
-375878037130 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878038113 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878038136 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93884180>
-375878045500 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375878046504 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba93918a40>
-375878046529 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93884240>
-375878046550 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba93918a40>
-375878281811 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93899440>
-375878281892 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375878282264 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375878284751 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b61e0>
-375878286692 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b85e0>
-375878288616 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bb900>
-375878290550 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bf400>
-375878293487 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c32a0>
-375878295440 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c7280>
-375878297359 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cc180>
-375878299283 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cfa40>
-375878301204 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d39e0>
-375878304118 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d8920>
-375878306059 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e0b60>
-375878308940 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e7b40>
-375878310836 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e9f80>
-375878310889 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878311246 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375878312302 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375878312432 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938f8c00>
-375878312459 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938f8c00>
-375878312480 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375878317073 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938f31a0>
-375878319918 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878320910 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878320932 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93884240>
-375878328255 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375878329289 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938f31a0>
-375878329316 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93884180>
-375878329339 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938f31a0>
-375878564291 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93899b00>
-375878566326 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba9389cf60>
-375878566422 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878566803 [35mapps.webauthn.fido2[0m [36mINFO[0m signing authentication
-375878569046 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b92c0>
-375878571934 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bebc0>
-375878572916 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375878573287 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375878574317 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375878574446 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938e5820>
-375878574472 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938e5820>
-375878574496 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375878579184 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938d4f00>
-375878581140 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878582215 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878582247 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93884180>
-375878590108 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375878591115 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938d4f00>
-375878591141 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883bc0>
-375878591163 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938d4f00>
-375878826465 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93899440>
-375878826551 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375878826929 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375878829741 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b2860>
-375878831688 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b7ca0>
-375878833602 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bb180>
-375878836678 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bf740>
-375878838926 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c32a0>
-375878840940 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c7880>
-375878842870 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cc760>
-375878845041 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d01c0>
-375878848144 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d5360>
-375878850252 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938db820>
-375878852238 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e3320>
-375878855636 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e8da0>
-375878858643 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938ec200>
-375878858705 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375878859065 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375878860102 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375878860220 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938fafe0>
-375878860245 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938fafe0>
-375878860264 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375878865290 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938f5740>
-375878867212 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878868303 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375878868330 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883bc0>
-375878876079 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375878877122 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938f5740>
-375878877163 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883c20>
-375878877192 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938f5740>
-375879112824 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93898c60>
-375879114972 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba9389c0e0>
-375879115044 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375879115460 [35mapps.webauthn.fido2[0m [36mINFO[0m signing authentication
-375879117920 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b89a0>
-375879120919 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938be2e0>
-375879121952 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375879122328 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375879123420 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375879123592 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938e3340>
-375879123626 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938e3340>
-375879123653 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375879128567 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938d4720>
-375879130659 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879131907 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879131937 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883c20>
-375879140608 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375879141709 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938d4720>
-375879141740 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883bc0>
-375879141767 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938d4720>
-375879375775 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93899440>
-375879375854 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375879376233 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375879378923 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b5ce0>
-375879380895 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b7dc0>
-375879383007 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bb340>
-375879386077 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bf7e0>
-375879388306 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c3860>
-375879390254 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c7880>
-375879392203 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cc760>
-375879394551 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d13a0>
-375879398181 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d57e0>
-375879400342 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938dc8e0>
-375879402445 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e4f00>
-375879406698 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e8e40>
-375879409753 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938ec160>
-375879409820 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375879410186 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375879411276 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375879411403 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938fb360>
-375879411435 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938fb360>
-375879411477 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375879416275 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938f5740>
-375879418410 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879419448 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879419479 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883bc0>
-375879427290 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375879428318 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938f5740>
-375879428362 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883c20>
-375879428396 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938f5740>
-375879663075 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938993a0>
-375879665039 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba9389c0e0>
-375879665112 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375879665522 [35mapps.webauthn.fido2[0m [36mINFO[0m signing authentication
-375879667994 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b89a0>
-375879671516 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938be2e0>
-375879672512 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375879672887 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375879673978 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375879674110 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938e3280>
-375879674136 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938e3280>
-375879674156 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375879679266 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938d4720>
-375879681287 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879682519 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879682568 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883c20>
-375879690881 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375879691889 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938d4720>
-375879691922 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883bc0>
-375879691955 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938d4720>
-375879926256 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93898c60>
-375879927333 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375879927710 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375879930198 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b5ce0>
-375879932167 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b7dc0>
-375879934133 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bb340>
-375879936087 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bf100>
-375879938016 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c2ca0>
-375879940942 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c7880>
-375879942924 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cc760>
-375879944970 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d13a0>
-375879946942 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d4aa0>
-375879948884 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d9cc0>
-375879951782 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e4f00>
-375879955941 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e8e40>
-375879957899 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938eb880>
-375879957955 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375879958316 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375879959348 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375879959466 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938fa580>
-375879959496 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938fa580>
-375879959519 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375879965119 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938f5740>
-375879967940 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879968998 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375879969024 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883bc0>
-375879976291 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375879977369 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938f5740>
-375879977399 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba938841a0>
-375879977424 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938f5740>
-375880213599 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938993a0>
-375880215625 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba9389cf60>
-375880215686 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375880216053 [35mapps.webauthn.fido2[0m [36mINFO[0m signing authentication
-375880218345 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b9260>
-375880221375 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bebc0>
-375880222410 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375880222793 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375880223874 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375880224007 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938e5820>
-375880224033 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938e5820>
-375880224053 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375880228792 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938d4f00>
-375880230764 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375880232225 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375880232260 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba938841a0>
-375880239678 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375880240720 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938d4f00>
-375880240748 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba93883bc0>
-375880240771 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938d4f00>
-375880477200 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba93898c60>
-375880477308 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_REGISTER
-375880477691 [35mapps.webauthn.fido2[0m [36mINFO[0m signing register
-375880480216 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b2860>
-375880482199 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938b7ca0>
-375880484158 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bb180>
-375880486174 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938bed20>
-375880489073 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c32a0>
-375880491043 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938c7880>
-375880492989 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938cc760>
-375880495047 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d01c0>
-375880497089 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938d4600>
-375880500032 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938db820>
-375880502023 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e3320>
-375880505003 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938e8da0>
-375880506952 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7fba938eb800>
-375880507015 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _MSG_AUTHENTICATE
-375880507383 [35mapps.webauthn.fido2[0m [36mINFO[0m waiting for button
-375880508388 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
-375880508516 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7fba938fa580>
-375880508549 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7fba938fa580>
-375880508577 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
-375880514147 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7fba938f5740>
-375880516173 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375880517194 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
-375880517225 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7fba93883bc0>
-375880524636 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
-375880525659 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7fba938f5740>
-375880525693 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7fba938841a0>
-375880525722 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7fba938f5740>
+377575915556 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'bootscreen' at 7f13795dcf40>
+377575965064 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379617d80>
+377575967449 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
+377575967554 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7f137961b160>
+377575967657 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7f137961b160>
+377575967680 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377575981174 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+377582050339 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
+377582050452 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7f1379662f20>
+377582050564 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7f1379662f20>
+377582050587 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582050614 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+377582058885 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <WipeDevice>
+377582059245 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'wipe_device' at 7f137958fe60>
+377582059284 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
+377582060390 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
+377582061483 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
+377582062924 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkGetState>
+377582063037 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkGetState' at 7f13795adc20>
+377582065845 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
+377582067711 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582068705 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582068728 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379617d80>
+377582068756 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkGetState' at 7f13795adc20>
+377582068784 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 write: <DebugLinkState>
+377582074893 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582075029 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379594ee0>
+377582075056 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379594ee0>
+377582086953 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582087974 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795a1400>
+377582113664 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'wipe_device' at 7f137958fe60>
+377582113705 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795a4f40>
+377582125805 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
+377582130479 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
+377582130599 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7f1379591440>
+377582130712 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7f1379591440>
+377582130733 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582130757 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+377582139314 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <LoadDevice>
+377582141539 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'load_device' at 7f13795aefa0>
+377582141618 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
+377582142655 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
+377582143641 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
+377582144885 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkGetState>
+377582144988 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkGetState' at 7f13795c0aa0>
+377582147855 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
+377582149974 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582150980 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582151003 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795a4f40>
+377582151031 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkGetState' at 7f13795c0aa0>
+377582151056 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 write: <DebugLinkState>
+377582157250 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582157389 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379599440>
+377582157415 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379599440>
+377582169521 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582170508 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795bb8a0>
+377582170591 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'load_device' at 7f13795aefa0>
+377582170613 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795a5720>
+377582181255 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
+377582186086 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
+377582186220 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7f1379590260>
+377582186375 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7f1379590260>
+377582186397 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582186420 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+377582194882 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <ClearSession>
+377582195000 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_ClearSession' at 7f1379590460>
+377582195026 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_ClearSession' at 7f1379590460>
+377582195046 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582195072 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
+377582199873 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <Initialize>
+377582199975 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 7f137958dc00>
+377582200127 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 7f137958dc00>
+377582200148 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582200172 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+377582480281 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CMD_INIT
+377582481454 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_INFO
+377582483544 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c3900>
+377582485493 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_INFO
+377582487519 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795dbf80>
+377582488525 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_RESET
+377582491426 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582491617 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795eada0>
+377582491661 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795eada0>
+377582491691 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582495605 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795e2a20>
+377582498836 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582499835 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582499858 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795a5720>
+377582507765 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582509278 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795e2a20>
+377582509338 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795b8500>
+377582509361 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795e2a20>
+377582534325 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c2de0>
+377582536634 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c54e0>
+377582538625 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c86c0>
+377582541514 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cc8a0>
+377582541567 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377582545244 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582545373 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795f6b00>
+377582545399 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795f6b00>
+377582545419 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582549040 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795e9600>
+377582551940 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582552944 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582552967 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795b8500>
+377582560331 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582566626 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379626280>
+377582568614 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379627d40>
+377582570616 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379628f80>
+377582572599 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962a1c0>
+377582574654 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962efc0>
+377582576971 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379630280>
+377582577062 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795e9600>
+377582577084 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379631320>
+377582577107 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795e9600>
+377582587413 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796331c0>
+377582589336 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379635a60>
+377582591233 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379636dc0>
+377582593127 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379638120>
+377582593172 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377582595485 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582595610 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379642660>
+377582595635 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379642660>
+377582595653 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582599325 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137963f780>
+377582602229 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582603245 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582603268 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379631320>
+377582610714 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582615842 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962a280>
+377582617865 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962f080>
+377582619864 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796302c0>
+377582621861 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379631560>
+377582623830 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379632f00>
+377582625804 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796342c0>
+377582625874 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137963f780>
+377582625896 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796353a0>
+377582625917 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137963f780>
+377582628921 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377582637877 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582638003 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379660ae0>
+377582638028 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379660ae0>
+377582638047 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582641850 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137965c9c0>
+377582643815 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582644815 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582644837 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796353a0>
+377582652266 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582656563 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c0400>
+377582658712 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c37a0>
+377582660649 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c5d00>
+377582662548 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c8d80>
+377582664480 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cc8a0>
+377582664549 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137965c9c0>
+377582664573 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795cdf40>
+377582664595 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137965c9c0>
+377582675240 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795dd680>
+377582677213 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e2b80>
+377582679127 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e5c80>
+377582681062 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e9c80>
+377582681111 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377582683325 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582683450 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379615200>
+377582683476 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379615200>
+377582683504 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582687686 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379603060>
+377582691035 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582692045 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582692068 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795cdf40>
+377582699385 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582704927 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964d560>
+377582706943 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964e7a0>
+377582708942 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964f9e0>
+377582711214 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379650c20>
+377582713255 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379651e60>
+377582715643 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379653120>
+377582715742 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379603060>
+377582715764 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796541c0>
+377582715785 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379603060>
+377582726103 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379655da0>
+377582728022 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379658920>
+377582729926 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379659c80>
+377582731868 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965afe0>
+377582731918 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377582734143 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582734259 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796657e0>
+377582734284 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796657e0>
+377582734302 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582737970 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379662900>
+377582740932 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582741960 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582741983 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796541c0>
+377582749326 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582755383 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966b220>
+377582757419 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966c460>
+377582759407 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966d6a0>
+377582761396 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966e8e0>
+377582763404 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966fb20>
+377582765435 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379670de0>
+377582765532 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379662900>
+377582765555 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379671e80>
+377582765575 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379662900>
+377582776183 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379673a60>
+377582778101 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796765e0>
+377582780013 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379677940>
+377582781960 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379678ca0>
+377582782010 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377582784168 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582784285 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796833e0>
+377582784309 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796833e0>
+377582784328 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582787976 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379680500>
+377582790828 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582791824 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582791846 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379671e80>
+377582799315 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582805531 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379688d60>
+377582807554 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379689fa0>
+377582809562 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968b1e0>
+377582811796 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968c420>
+377582814270 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968d660>
+377582816356 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968e920>
+377582816443 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379680500>
+377582816465 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137968f9c0>
+377582816489 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379680500>
+377582817584 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377582829353 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582829476 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13797132e0>
+377582829505 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13797132e0>
+377582829525 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582833335 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137970ec00>
+377582835298 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582836300 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582836321 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137968f9c0>
+377582844674 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582845680 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f1379595160>
+377582848367 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c4bc0>
+377582850331 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c78e0>
+377582852617 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cb220>
+377582854689 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cd420>
+377582856649 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d0920>
+377582858590 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d7860>
+377582858649 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137970ec00>
+377582858671 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795dcb80>
+377582858693 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137970ec00>
+377582859710 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_NEXT_ASSERTION
+377582861643 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377582872498 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582872624 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379695d00>
+377582872649 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379695d00>
+377582872667 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582876349 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582876480 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377582876508 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377582876529 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582880141 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796916c0>
+377582882113 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582883120 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582883142 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795dcb80>
+377582893363 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795a56e0>
+377582894360 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f1379598740>
+377582904605 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582905608 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795b5360>
+377582908201 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795dbde0>
+377582910156 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e1980>
+377582912593 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e4060>
+377582914629 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e8c80>
+377582916593 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795ec3a0>
+377582918547 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795f02e0>
+377582918611 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796916c0>
+377582918634 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795f47e0>
+377582918656 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796916c0>
+377582919682 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_NEXT_ASSERTION
+377582920677 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377582932338 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582932460 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137969d8e0>
+377582932485 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137969d8e0>
+377582932512 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582936384 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582936530 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377582936556 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377582936575 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582940198 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377582940331 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377582940353 [35mapps.debug[0m [33mWARNING[0m DebugLinkDecision queue is not empty
+377582940382 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377582940415 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377582944031 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796991a0>
+377582946946 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582948005 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377582948029 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795f47e0>
+377582958619 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795a5f00>
+377582959622 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795993e0>
+377582971734 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795bd7a0>
+377582972736 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795b4c60>
+377582982969 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377582983985 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795c7780>
+377582986712 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795ee860>
+377582988718 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795f2880>
+377582990685 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795f7b60>
+377582992635 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795fca80>
+377582994590 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796007c0>
+377582996545 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379606820>
+377582996613 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796991a0>
+377582996634 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137960e080>
+377582996657 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796991a0>
+377582997698 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_NEXT_ASSERTION
+377582998704 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377583010601 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583010726 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796a3b00>
+377583010750 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796a3b00>
+377583010769 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583014553 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583014691 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377583014715 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379593580>
+377583014734 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583018344 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583018479 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377583018503 [35mapps.debug[0m [33mWARNING[0m DebugLinkDecision queue is not empty
+377583018524 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377583018543 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583022113 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583022239 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379594b20>
+377583022261 [35mapps.debug[0m [33mWARNING[0m DebugLinkDecision queue is not empty
+377583022280 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379594b20>
+377583022298 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583025939 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137969f3c0>
+377583028829 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583029831 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583029853 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137960e080>
+377583039984 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795a6680>
+377583040993 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795993e0>
+377583053633 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795bdb60>
+377583054652 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795b59a0>
+377583066899 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795ccd80>
+377583067911 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795c5c40>
+377583078308 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583079330 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795dc2e0>
+377583081989 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379601960>
+377583083981 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796097a0>
+377583086308 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379610e00>
+377583088345 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796140c0>
+377583090497 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379616f60>
+377583090605 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137969f3c0>
+377583090635 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379618e80>
+377583090664 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137969f3c0>
+377583091906 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_NEXT_ASSERTION
+377583102260 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137961e4c0>
+377583104518 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379620800>
+377583106655 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379623840>
+377583108583 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379625ec0>
+377583110470 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379627960>
+377583113478 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379628fc0>
+377583115395 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962a320>
+377583115443 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583117592 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583117704 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379639dc0>
+377583117728 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379639dc0>
+377583117746 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583121587 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379636ee0>
+377583125021 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583126047 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583126070 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379618e80>
+377583133365 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583140044 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796a7880>
+377583142127 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796a8ac0>
+377583144167 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796a9d00>
+377583146554 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796aaf40>
+377583148687 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ac180>
+377583150811 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ad3c0>
+377583152887 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ae600>
+377583154981 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796af8e0>
+377583155075 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379636ee0>
+377583155097 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796b0980>
+377583155117 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379636ee0>
+377583156282 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377583168708 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583168836 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379752820>
+377583168861 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379752820>
+377583168892 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583172626 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137974e140>
+377583174554 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583175547 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583175569 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796b0980>
+377583183916 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583185345 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f1379595160>
+377583188064 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c5900>
+377583190057 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c93e0>
+377583192001 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795ccb40>
+377583193939 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cf200>
+377583195872 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d4fe0>
+377583197818 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795dbf80>
+377583199761 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e12a0>
+377583201728 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e34c0>
+377583201795 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137974e140>
+377583201818 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795e62e0>
+377583201841 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137974e140>
+377583205062 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_RESET
+377583212722 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583212868 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795fe020>
+377583212894 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795fe020>
+377583212913 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583217663 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795eddc0>
+377583219707 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583220770 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583220797 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795e62e0>
+377583228347 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583229517 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795eddc0>
+377583229544 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795b5ac0>
+377583229567 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795eddc0>
+377583241676 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795bf2e0>
+377583243592 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c3020>
+377583245567 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c56a0>
+377583247438 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c87c0>
+377583247486 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583249616 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583249753 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795f0660>
+377583249778 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795f0660>
+377583249800 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583253544 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795e3b20>
+377583256470 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583257483 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583257520 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795b5ac0>
+377583265282 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583270564 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962f9c0>
+377583272956 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379630c00>
+377583275197 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379631e40>
+377583277190 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379633080>
+377583279135 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796342c0>
+377583281092 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796355a0>
+377583281164 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795e3b20>
+377583281186 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379636640>
+377583281208 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795e3b20>
+377583291815 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379638220>
+377583293874 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963ada0>
+377583295948 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963c100>
+377583297846 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963d460>
+377583297893 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583300009 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583300127 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379647cc0>
+377583300152 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379647cc0>
+377583300172 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583303948 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379644de0>
+377583306839 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583307841 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583307864 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379636640>
+377583315285 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583320784 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964d560>
+377583323104 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964e7a0>
+377583325234 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964f9e0>
+377583327253 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379650c20>
+377583329238 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379651e60>
+377583331267 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796530a0>
+377583333280 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379654380>
+377583333357 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379644de0>
+377583333379 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379655420>
+377583333400 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379644de0>
+377583343774 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379657000>
+377583345690 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379659b80>
+377583347592 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965aee0>
+377583349476 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965c240>
+377583349527 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583351712 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583351836 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379666aa0>
+377583351861 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379666aa0>
+377583351880 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583355539 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379663bc0>
+377583358384 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583359390 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583359413 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379655420>
+377583367331 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583372495 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379666620>
+377583374528 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379667a40>
+377583376516 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379668c80>
+377583378504 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379669ec0>
+377583380489 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966b100>
+377583382612 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966c340>
+377583384713 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966d620>
+377583384800 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379663bc0>
+377583384822 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137966e6c0>
+377583384844 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379663bc0>
+377583395048 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796702a0>
+377583396960 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379672e20>
+377583398868 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379674180>
+377583400807 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796754e0>
+377583400855 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583403086 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583403201 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137967fd40>
+377583403226 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137967fd40>
+377583403246 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583406927 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137967ce60>
+377583409785 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583410783 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583410806 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137966e6c0>
+377583418270 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583423870 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962a5a0>
+377583425894 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137962f3a0>
+377583427872 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796305e0>
+377583429851 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379631820>
+377583431900 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379632a60>
+377583433891 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379633ca0>
+377583435866 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379634f80>
+377583435937 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137967ce60>
+377583435959 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379636020>
+377583435988 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137967ce60>
+377583437037 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377583448043 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583448168 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137967fde0>
+377583448192 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137967fde0>
+377583448211 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583451887 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583452022 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377583452046 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795937a0>
+377583452065 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583455656 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137967a940>
+377583457596 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583458602 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583458625 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379636020>
+377583469293 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 7f13795a5ec0>
+377583470300 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f1379598740>
+377583480607 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583481700 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f13795b5360>
+377583484350 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795db000>
+377583486305 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795dd740>
+377583488252 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e2900>
+377583490199 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e58a0>
+377583492144 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795e9620>
+377583492205 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137967a940>
+377583492227 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795ec3a0>
+377583492248 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137967a940>
+377583493272 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377583504540 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583504663 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137965e0a0>
+377583504687 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137965e0a0>
+377583504705 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583508350 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796599c0>
+377583510279 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583511285 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583511307 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795ec3a0>
+377583519802 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583520893 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'handle_paging' at 7f1379595140>
+377583523505 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c4bc0>
+377583525444 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c7940>
+377583527366 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cb220>
+377583529387 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cd480>
+377583531363 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d0960>
+377583533325 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d78c0>
+377583533385 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796599c0>
+377583533408 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795dcc80>
+377583533430 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796599c0>
+377583534448 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_GET_ASSERTION
+377583545167 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583545298 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137963baa0>
+377583545324 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137963baa0>
+377583545343 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583548997 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796373c0>
+377583550933 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583551925 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583551947 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795dcc80>
+377583559238 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583563174 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c04e0>
+377583565203 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c3900>
+377583567188 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c5e20>
+377583569147 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c91c0>
+377583571079 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cc9c0>
+377583573014 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cf200>
+377583573072 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796373c0>
+377583573093 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795d4ca0>
+377583573115 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796373c0>
+377583581904 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_RESET
+377583583862 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583583986 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13795ee1a0>
+377583584011 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13795ee1a0>
+377583584030 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583587699 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795e5260>
+377583589869 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583591010 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583591036 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795d4ca0>
+377583598192 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583599445 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795e5260>
+377583599487 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13795b5ac0>
+377583599531 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795e5260>
+377583610367 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795bb060>
+377583612273 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c32c0>
+377583614262 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c5760>
+377583616164 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795c89e0>
+377583618156 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795cc6c0>
+377583620168 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795ce9a0>
+377583623027 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13795d5ce0>
+377583623076 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583625341 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583625481 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796008a0>
+377583625512 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796008a0>
+377583625532 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583629189 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13795f6e80>
+377583631123 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583632123 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583632146 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13795b5ac0>
+377583639598 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583644714 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796307c0>
+377583646698 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379631a00>
+377583648683 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379632c40>
+377583650658 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379633e80>
+377583652625 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796350c0>
+377583654585 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379636300>
+377583656587 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379637540>
+377583658560 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379638820>
+377583658638 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13795f6e80>
+377583658695 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796398c0>
+377583658728 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13795f6e80>
+377583669355 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963b560>
+377583671278 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963e0e0>
+377583673179 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137963f440>
+377583675079 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796407a0>
+377583677054 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379641b00>
+377583679052 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379642e60>
+377583681932 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796444c0>
+377583681980 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583684126 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583684239 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796503a0>
+377583684263 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796503a0>
+377583684282 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583687976 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137964d4c0>
+377583689936 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583690933 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583690956 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796398c0>
+377583698404 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583704095 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964e540>
+377583706148 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137964fba0>
+377583708185 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379650f60>
+377583710191 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379652200>
+377583712187 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379653440>
+377583714247 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379654680>
+377583716366 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796558c0>
+377583718453 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379656ba0>
+377583718549 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137964d4c0>
+377583718573 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379657c40>
+377583718594 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137964d4c0>
+377583728862 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796598e0>
+377583730775 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965c460>
+377583732678 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965d7c0>
+377583734578 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965eb20>
+377583736461 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137965fe80>
+377583738676 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796611e0>
+377583741568 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379662840>
+377583741621 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583743759 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583743872 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137966e720>
+377583743895 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137966e720>
+377583743914 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583747563 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137966b840>
+377583749472 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583750465 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583750487 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379657c40>
+377583757932 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583763796 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966c920>
+377583765877 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966df80>
+377583767927 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137966f340>
+377583769961 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796705e0>
+377583771966 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379671820>
+377583774000 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379672a60>
+377583776015 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379673ca0>
+377583778142 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379674f80>
+377583778245 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137966b840>
+377583778268 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379676020>
+377583778288 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137966b840>
+377583788569 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379677cc0>
+377583790494 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137967a840>
+377583792374 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137967bba0>
+377583794277 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137967cf00>
+377583796208 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137967e260>
+377583798457 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137967f5c0>
+377583801315 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379680c20>
+377583801363 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583803488 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583803608 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137968cb00>
+377583803631 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137968cb00>
+377583803650 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583807335 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379689c20>
+377583809273 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583810266 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583810288 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379676020>
+377583817990 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583824356 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968ad00>
+377583826399 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968c360>
+377583828406 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968d720>
+377583830426 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968e9c0>
+377583832444 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137968fc00>
+377583834512 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379690e40>
+377583836539 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379692080>
+377583838928 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379693360>
+377583839033 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379689c20>
+377583839056 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379694400>
+377583839077 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379689c20>
+377583849393 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796960a0>
+377583851304 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379698c20>
+377583853200 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379699f80>
+377583855116 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137969b2e0>
+377583857114 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137969c640>
+377583859043 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137969d9a0>
+377583861867 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137969f000>
+377583861913 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583864067 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583864181 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796aaee0>
+377583864205 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796aaee0>
+377583864224 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583867954 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796a8000>
+377583869953 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583870987 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583871013 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379694400>
+377583879187 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583885858 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796a9140>
+377583887874 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796aa7a0>
+377583889909 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796abb60>
+377583891943 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ace00>
+377583893974 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ae040>
+377583895997 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796af280>
+377583898206 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b04c0>
+377583900295 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b17a0>
+377583900386 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796a8000>
+377583900408 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796b2840>
+377583900430 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796a8000>
+377583910758 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b44e0>
+377583912671 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b7060>
+377583914635 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b83c0>
+377583916881 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796b9720>
+377583918819 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796baa80>
+377583920731 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796bbde0>
+377583923545 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796bd440>
+377583923591 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583925726 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583925838 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796c9320>
+377583925863 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796c9320>
+377583925881 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583929531 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796c6440>
+377583931510 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583932515 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583932538 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796b2840>
+377583940251 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377583947364 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796c7580>
+377583949426 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796c8be0>
+377583951485 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796c9fa0>
+377583953534 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796cb240>
+377583955571 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796cc480>
+377583957754 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796cd6c0>
+377583959829 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ce900>
+377583961871 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796cfbe0>
+377583961964 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796c6440>
+377583961986 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796d0c80>
+377583962006 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796c6440>
+377583972443 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796d2920>
+377583974368 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796d54a0>
+377583976301 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796d6800>
+377583978569 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796d7b60>
+377583980562 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796d8ec0>
+377583983418 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796da520>
+377583985391 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796db880>
+377583985444 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377583987607 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377583987718 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13796e7760>
+377583987742 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13796e7760>
+377583987760 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377583991539 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13796e4880>
+377583994558 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583995569 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377583995593 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796d0c80>
+377584003202 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584010669 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796e5c00>
+377584012734 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796e7200>
+377584014849 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796e8620>
+377584017339 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796e9860>
+377584019460 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796eaaa0>
+377584021515 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ebce0>
+377584023573 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ecf20>
+377584025636 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796ee200>
+377584025733 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13796e4880>
+377584025755 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13796ef2a0>
+377584025775 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13796e4880>
+377584036261 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f0f40>
+377584038230 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f3ac0>
+377584040136 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f4e20>
+377584042037 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f6180>
+377584043932 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f74e0>
+377584045917 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f8840>
+377584048809 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13796f9ea0>
+377584048861 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584051038 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584051151 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379705d80>
+377584051175 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379705d80>
+377584051194 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584054872 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379702ea0>
+377584056895 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584057920 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584057953 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13796ef2a0>
+377584066330 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584074162 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379703c00>
+377584076335 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379705340>
+377584078684 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379706700>
+377584080829 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797079a0>
+377584082934 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379708be0>
+377584085028 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379709e20>
+377584087122 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137970b060>
+377584089226 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137970c340>
+377584089331 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379702ea0>
+377584089353 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137970d3e0>
+377584089373 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379702ea0>
+377584099879 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137970f080>
+377584101792 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379711c00>
+377584103682 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379712f60>
+377584105565 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797142c0>
+377584107448 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379715620>
+377584109334 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379716980>
+377584112157 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379717fe0>
+377584112202 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584114345 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584114459 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379723ec0>
+377584114483 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379723ec0>
+377584114510 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584118541 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379720fe0>
+377584120514 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584121503 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584121526 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137970d3e0>
+377584128848 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584137145 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379722000>
+377584139280 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379723660>
+377584141375 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379724a20>
+377584143440 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379725cc0>
+377584145513 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379726f00>
+377584147578 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379728140>
+377584149658 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379729380>
+377584151734 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137972a660>
+377584151834 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379720fe0>
+377584151856 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137972b700>
+377584151876 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379720fe0>
+377584162429 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137972d3a0>
+377584164377 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137972ff20>
+377584166295 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379731280>
+377584168204 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797325e0>
+377584170108 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379733940>
+377584172006 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379734ca0>
+377584174846 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379736300>
+377584174894 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584177162 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584177298 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13797421e0>
+377584177333 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13797421e0>
+377584177352 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584181121 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137973f300>
+377584183205 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584184284 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584184308 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137972b700>
+377584191850 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584200737 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379740440>
+377584202867 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379741aa0>
+377584204969 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379742e60>
+377584207059 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379744100>
+377584209164 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379745340>
+377584211247 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379746580>
+377584213343 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797477c0>
+377584215444 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379748aa0>
+377584215561 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137973f300>
+377584215584 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379749b40>
+377584215604 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137973f300>
+377584226220 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137974b7e0>
+377584228149 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137974e360>
+377584230048 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137974f6c0>
+377584231964 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379750a20>
+377584233868 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379751d80>
+377584235765 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797530e0>
+377584238738 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379754740>
+377584238793 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584240969 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584241086 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379760620>
+377584241110 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379760620>
+377584241130 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584244843 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137975d740>
+377584246775 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584247778 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584247801 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379749b40>
+377584255140 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584264373 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137975e940>
+377584266509 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137975ff40>
+377584268677 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797613a0>
+377584270793 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797625a0>
+377584272900 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797637e0>
+377584274998 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379764a20>
+377584277251 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379765c60>
+377584279377 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379766f40>
+377584279494 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137975d740>
+377584279522 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379767fe0>
+377584279543 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137975d740>
+377584290074 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379769c80>
+377584292003 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137976c800>
+377584293916 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137976db60>
+377584295975 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137976eec0>
+377584297956 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379770220>
+377584299863 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379771580>
+377584302679 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379772be0>
+377584302730 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584304886 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584305000 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137977eac0>
+377584305026 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137977eac0>
+377584305045 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584308722 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137977bbe0>
+377584310650 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584311637 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584311659 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379767fe0>
+377584319186 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584328725 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137977cba0>
+377584330895 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137977e200>
+377584333060 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137977f5c0>
+377584335273 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379780860>
+377584337427 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379781aa0>
+377584339550 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379782ce0>
+377584341667 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379783f20>
+377584343784 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379785200>
+377584343905 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137977bbe0>
+377584343937 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13797862a0>
+377584343957 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137977bbe0>
+377584354392 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379787f40>
+377584356390 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137978aac0>
+377584358317 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137978be20>
+377584360226 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137978d180>
+377584362124 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137978e4e0>
+377584364037 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137978f840>
+377584366874 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379790ea0>
+377584366922 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584369081 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584369198 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137979cd80>
+377584369222 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137979cd80>
+377584369240 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584372941 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379799ea0>
+377584374933 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584375947 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584375969 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13797862a0>
+377584383299 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584393305 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137979b0a0>
+377584395586 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137979c6a0>
+377584397816 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137979db00>
+377584400084 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137979ed00>
+377584402237 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137979ff40>
+377584404367 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797a1180>
+377584406489 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797a23c0>
+377584408619 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797a36a0>
+377584408743 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379799ea0>
+377584408765 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13797a4740>
+377584408785 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379799ea0>
+377584419339 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797a63e0>
+377584421278 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797a8f60>
+377584423202 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797aa2c0>
+377584425100 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797ab620>
+377584426998 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797ac980>
+377584428886 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797adce0>
+377584431705 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797af340>
+377584431751 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584433911 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584434070 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13797bb220>
+377584434099 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13797bb220>
+377584434125 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584437911 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13797b8340>
+377584439859 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584440853 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584440875 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13797a4740>
+377584448212 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584458725 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797b93c0>
+377584460915 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797baa20>
+377584463149 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797bbde0>
+377584465348 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797bd080>
+377584467508 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797be2c0>
+377584469643 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797bf500>
+377584472005 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c0740>
+377584474667 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c1a20>
+377584474825 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13797b8340>
+377584474847 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13797c2ac0>
+377584474870 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13797b8340>
+377584485313 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c4760>
+377584487396 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c72e0>
+377584489406 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c8640>
+377584491347 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797c99a0>
+377584493272 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797cad00>
+377584495194 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797cc060>
+377584498060 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797cd6c0>
+377584498112 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584500318 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584500436 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13797d95a0>
+377584500461 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13797d95a0>
+377584500483 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584504208 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13797d66c0>
+377584506266 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584507339 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584507364 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13797c2ac0>
+377584514795 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584525762 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797d7800>
+377584528032 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797d8e60>
+377584530227 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797da220>
+377584532422 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797db4c0>
+377584534582 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797dc700>
+377584536746 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797dd940>
+377584538909 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797deb80>
+377584541073 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797dfe60>
+377584541203 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13797d66c0>
+377584541228 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13797e0f00>
+377584541248 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13797d66c0>
+377584551875 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797e2ba0>
+377584553804 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797e5720>
+377584555704 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797e6a80>
+377584557594 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797e7de0>
+377584559486 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797e9140>
+377584561367 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797ea4a0>
+377584564226 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797ebb00>
+377584564277 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584566567 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584566697 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13797f79e0>
+377584566726 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13797f79e0>
+377584566744 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584570447 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13797f4b00>
+377584572359 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584573351 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584573373 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13797e0f00>
+377584580756 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584592226 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797f5aa0>
+377584594463 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797f70c0>
+377584596754 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797f8480>
+377584598968 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797f9720>
+377584601158 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797fa960>
+377584603361 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797fbba0>
+377584605709 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797fcde0>
+377584607986 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13797fe0c0>
+377584608130 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13797f4b00>
+377584608152 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13797ff160>
+377584608173 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13797f4b00>
+377584618858 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379800e00>
+377584620836 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379803980>
+377584622738 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379804ce0>
+377584624739 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379806040>
+377584626674 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798073a0>
+377584628575 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379808700>
+377584631399 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379809d60>
+377584631449 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584633643 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584633769 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379815c40>
+377584633795 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379815c40>
+377584633813 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584637538 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379812d60>
+377584639468 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584640460 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584640483 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13797ff160>
+377584647909 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584659560 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379813f60>
+377584661756 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379815560>
+377584664025 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798169c0>
+377584666288 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379817bc0>
+377584668482 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379818e00>
+377584670681 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137981a040>
+377584672867 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137981b280>
+377584675054 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137981c560>
+377584675196 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379812d60>
+377584675217 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137981d600>
+377584675238 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379812d60>
+377584686001 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137981f2a0>
+377584687987 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379821e20>
+377584689921 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379823180>
+377584691835 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798244e0>
+377584693747 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379825840>
+377584695654 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379826ba0>
+377584698479 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379828200>
+377584698535 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584700783 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584700905 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13798340e0>
+377584700930 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13798340e0>
+377584700949 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584704800 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379831200>
+377584706787 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584707827 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584707850 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137981d600>
+377584715283 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584727650 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379832340>
+377584729867 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798339a0>
+377584732097 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379834d60>
+377584734338 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379836000>
+377584736536 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379837240>
+377584738727 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379838480>
+377584740920 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798396c0>
+377584743202 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137983a9a0>
+377584743356 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379831200>
+377584743379 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137983ba40>
+377584743403 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379831200>
+377584753998 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137983d6e0>
+377584755916 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379840260>
+377584757819 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798415c0>
+377584759714 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379842920>
+377584761609 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379843c80>
+377584763638 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379844fe0>
+377584766495 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379846640>
+377584766545 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584768734 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584768850 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379852520>
+377584768874 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379852520>
+377584768892 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584772620 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137984f640>
+377584774536 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584775524 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584775547 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137983ba40>
+377584782991 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584795662 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379850780>
+377584797952 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379851de0>
+377584800179 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798531a0>
+377584802479 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379854440>
+377584804771 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379855680>
+377584807019 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798568c0>
+377584809262 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379857b00>
+377584811503 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379858de0>
+377584811657 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137984f640>
+377584811681 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379859e80>
+377584811703 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137984f640>
+377584822384 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137985bb20>
+377584824322 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137985e6a0>
+377584826242 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137985fa00>
+377584828149 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379860d60>
+377584830051 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798620c0>
+377584831956 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379863420>
+377584834779 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379864a80>
+377584834832 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584837012 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584837127 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379870960>
+377584837152 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379870960>
+377584837172 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584840910 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137986da80>
+377584842931 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584843946 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584843969 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379859e80>
+377584851299 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584864409 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137986eaa0>
+377584866671 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379870100>
+377584868913 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798714c0>
+377584871159 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379872760>
+377584873394 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798739a0>
+377584875615 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379874be0>
+377584877824 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379875e20>
+377584880044 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379877100>
+377584880199 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137986da80>
+377584880221 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13798781a0>
+377584880243 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137986da80>
+377584890972 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379879e40>
+377584892922 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137987c9c0>
+377584894847 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137987dd20>
+377584896756 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137987f080>
+377584898668 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798803e0>
+377584900567 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379881740>
+377584903517 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379882da0>
+377584903576 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584905820 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584905937 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137988ec80>
+377584905962 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137988ec80>
+377584905982 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584909750 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137988bda0>
+377584911701 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584912694 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584912716 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13798781a0>
+377584920060 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377584933635 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137988cfa0>
+377584935882 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137988e5a0>
+377584938103 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137988fa00>
+377584940335 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379890c00>
+377584942661 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379891e40>
+377584944959 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379893080>
+377584947222 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798942c0>
+377584949467 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798955a0>
+377584949629 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137988bda0>
+377584949652 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379896640>
+377584949673 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137988bda0>
+377584960302 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798982e0>
+377584962317 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137989ae60>
+377584964269 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137989c1c0>
+377584966177 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137989d520>
+377584968085 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137989e880>
+377584969974 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137989fbe0>
+377584972795 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798a1240>
+377584972841 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377584975021 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377584975136 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13798ad120>
+377584975159 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13798ad120>
+377584975179 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377584978916 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13798aa240>
+377584980842 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584981948 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377584981975 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379896640>
+377584989323 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585003529 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ab260>
+377585005872 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ac8c0>
+377585008213 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798adc80>
+377585010478 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798aef20>
+377585012730 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b0160>
+377585015022 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b13a0>
+377585017290 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b25e0>
+377585019533 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b38c0>
+377585019696 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13798aa240>
+377585019718 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13798b4960>
+377585019738 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13798aa240>
+377585030584 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b6600>
+377585032508 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798b9180>
+377585034415 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ba4e0>
+377585036588 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798bb840>
+377585038573 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798bcba0>
+377585040556 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798bdf00>
+377585043442 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798bf560>
+377585043500 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585045706 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585045826 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13798cb440>
+377585045850 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13798cb440>
+377585045869 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585049653 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13798c8560>
+377585051585 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585052570 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585052592 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13798b4960>
+377585059926 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585074729 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798c97c0>
+377585077057 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798cadc0>
+377585079311 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798cc220>
+377585081652 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798cd420>
+377585083929 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ce660>
+377585086173 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798cf8a0>
+377585088417 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d0ae0>
+377585090651 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d1dc0>
+377585090847 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13798c8560>
+377585090872 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13798d2e60>
+377585090895 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13798c8560>
+377585101881 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d4b00>
+377585103827 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d7680>
+377585105742 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d89e0>
+377585107652 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798d9d40>
+377585109602 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798db0a0>
+377585111528 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798dc400>
+377585114368 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798dda60>
+377585114414 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585116628 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585116743 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13798e9940>
+377585116768 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13798e9940>
+377585116786 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585120664 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13798e6a60>
+377585122627 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585123618 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585123640 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13798d2e60>
+377585130956 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585146064 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798e7a80>
+377585148360 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798e90e0>
+377585150645 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ea4a0>
+377585152918 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798eb740>
+377585155195 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798ec980>
+377585157457 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798edbc0>
+377585159844 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798eee00>
+377585162178 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f00e0>
+377585162360 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13798e6a60>
+377585162383 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13798f1180>
+377585162403 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13798e6a60>
+377585173135 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f2e20>
+377585175050 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f59a0>
+377585176951 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f6d00>
+377585178922 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f8060>
+377585180941 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798f93c0>
+377585182871 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798fa720>
+377585185829 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13798fbd80>
+377585185899 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585188237 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585188358 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379907c60>
+377585188384 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379907c60>
+377585188403 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585192153 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379904d80>
+377585194044 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585195024 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585195046 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13798f1180>
+377585202849 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585218369 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379905e60>
+377585220890 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799074c0>
+377585223239 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379908880>
+377585225540 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379909b20>
+377585227826 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137990ad60>
+377585230192 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137990bfa0>
+377585232529 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137990d1e0>
+377585234830 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137990e4c0>
+377585235009 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379904d80>
+377585235031 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137990f560>
+377585235051 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379904d80>
+377585245977 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379911200>
+377585247902 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379913d80>
+377585249814 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799150e0>
+377585251759 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379916440>
+377585253658 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799177a0>
+377585255582 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379918b00>
+377585258472 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137991a160>
+377585258547 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585260756 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585260872 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379926040>
+377585260896 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379926040>
+377585260916 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585264681 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379923160>
+377585266614 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585267648 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585267674 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137990f560>
+377585275032 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585291136 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379924240>
+377585293448 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799258a0>
+377585295749 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379926c60>
+377585298137 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379927f00>
+377585300603 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379929140>
+377585302973 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137992a380>
+377585305306 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137992b5c0>
+377585307619 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137992c8a0>
+377585307798 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379923160>
+377585307822 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137992d940>
+377585307842 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379923160>
+377585318825 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137992f5e0>
+377585320773 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379932160>
+377585322720 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799334c0>
+377585324620 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379934820>
+377585326531 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379935b80>
+377585328421 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379936ee0>
+377585331266 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379938540>
+377585331317 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585333579 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585333697 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379944420>
+377585333721 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379944420>
+377585333740 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585337560 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f1379941540>
+377585339504 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585340495 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585340521 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137992d940>
+377585347876 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585364466 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379942680>
+377585366828 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379943ce0>
+377585369135 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799450a0>
+377585371441 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379946340>
+377585373744 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379947580>
+377585376043 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799487c0>
+377585378486 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379949a00>
+377585380900 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137994ace0>
+377585381088 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f1379941540>
+377585381113 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137994bd80>
+377585381133 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f1379941540>
+377585391886 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137994da20>
+377585393801 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799505a0>
+377585395699 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379951900>
+377585397762 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379952c60>
+377585399706 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379953fc0>
+377585401654 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379955320>
+377585404513 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379956980>
+377585404560 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585406777 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585406895 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379962860>
+377585406919 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379962860>
+377585406940 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585410716 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137995f980>
+377585412652 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585413718 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585413745 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137994bd80>
+377585421273 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585438335 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799609a0>
+377585440697 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379962000>
+377585443025 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799633c0>
+377585445361 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379964660>
+377585447754 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799658a0>
+377585450093 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379966ae0>
+377585452430 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379967d20>
+377585454755 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379969000>
+377585454940 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137995f980>
+377585454964 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f137996a0a0>
+377585454984 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137995f980>
+377585466001 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137996bd40>
+377585467929 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137996e8c0>
+377585469844 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137996fc20>
+377585471737 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379970f80>
+377585473633 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799722e0>
+377585475525 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379973640>
+377585478473 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379974ca0>
+377585478534 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585480779 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585480897 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f1379980b80>
+377585480922 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f1379980b80>
+377585480942 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585484724 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137997dca0>
+377585486643 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585487637 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585487660 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f137996a0a0>
+377585495077 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585512558 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137997ed80>
+377585514950 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799803e0>
+377585517465 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799817a0>
+377585519900 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379982a40>
+377585522327 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379983c80>
+377585524714 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379984ec0>
+377585527103 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379986100>
+377585529507 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799873e0>
+377585529720 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137997dca0>
+377585529748 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f1379988480>
+377585529770 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137997dca0>
+377585540883 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137998a400>
+377585542801 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137998cca0>
+377585544771 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137998e000>
+377585546674 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137998f360>
+377585548583 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799906c0>
+377585550474 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379991a20>
+377585553320 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f1379993080>
+377585553371 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585555638 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585555763 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f137999ef60>
+377585555787 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f137999ef60>
+377585555806 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585559652 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f137999c080>
+377585561594 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585562600 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585562632 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f1379988480>
+377585569988 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585588068 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137999d120>
+377585590444 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137999e780>
+377585592859 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f137999fb40>
+377585595286 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a0de0>
+377585597684 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a2020>
+377585600047 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a3260>
+377585602396 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a44a0>
+377585604737 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a5780>
+377585604932 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f137999c080>
+377585604953 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13799a6820>
+377585604973 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f137999c080>
+377585615948 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799a84c0>
+377585617885 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ab040>
+377585619808 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ac3a0>
+377585621729 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ad700>
+377585623680 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799aea60>
+377585625662 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799afdc0>
+377585628480 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799b1420>
+377585628534 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585630718 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585630842 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13799bd300>
+377585630866 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13799bd300>
+377585630885 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585634819 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13799ba420>
+377585636814 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585637815 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585637838 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13799a6820>
+377585645240 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585663795 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799bb560>
+377585666198 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799bcbc0>
+377585668567 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799bdf80>
+377585670949 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799bf220>
+377585673361 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c0460>
+377585675838 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c16a0>
+377585678215 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c28e0>
+377585680581 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c3bc0>
+377585680779 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13799ba420>
+377585680801 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13799c4c60>
+377585680823 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13799ba420>
+377585691805 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c6900>
+377585693769 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799c9480>
+377585695764 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ca7e0>
+377585697688 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799cbb40>
+377585699597 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ccea0>
+377585701519 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799ce200>
+377585704366 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799cf860>
+377585704417 [35mapps.webauthn.fido2[0m [32mDEBUG[0m _CBOR_MAKE_CREDENTIAL
+377585706678 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <DebugLinkDecision>
+377585706798 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 7f13799db740>
+377585706822 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 7f13799db740>
+377585706845 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+377585710635 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dialog_workflow' at 7f13799d8860>
+377585712551 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585713633 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+377585713659 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 7f13799c4c60>
+377585721074 [35mtrezor.loop[0m [32mDEBUG[0m ui.Result: <object>
+377585740419 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799d99a0>
+377585742944 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799db000>
+377585745358 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799dc3c0>
+377585747763 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799dd660>
+377585750163 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799de8a0>
+377585752598 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799dfae0>
+377585755204 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799e0d20>
+377585757626 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 7f13799e2000>
+377585757839 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dialog_workflow' at 7f13799d8860>
+377585757872 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 7f13799e30a0>
+377585757902 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'dialog_workflow' at 7f13799d8860>
 SHUTDOWN

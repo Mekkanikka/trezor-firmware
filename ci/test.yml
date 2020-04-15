@@ -128,7 +128,7 @@ core fido2 test:
     - pipenv sync
     - cd core
     - pipenv run ./emu.py --output=a.log --disable-animation --headless --temporary-profile &
-    - pipenv run pytest -s --sim tests/standard/ --vendor trezor
+    - cd ../vendor/fido2-tests && pipenv run pytest -s --sim tests/standard/ --vendor trezor
     - mv ./src/.coverage .coverage.test_emu_fido2
   artifacts:
     name: "$CI_JOB_NAME-$CI_COMMIT_SHORT_SHA"
