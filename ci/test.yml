@@ -125,6 +125,7 @@ core fido2 test:
   variables:
     TREZOR_PROFILING: 1
   script:
+    - pipenv sync
     - cd core
     - pipenv run make test_emu_fido2
     - mv ./src/.coverage .coverage.test_emu_fido2
