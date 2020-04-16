@@ -127,7 +127,7 @@ core fido2 test:
   script:
     - pipenv sync
     - cd core
-    - pipenv run ./emu.py --output=a.log --disable-animation --headless --temporary-profile &
+    - pipenv run ./emu.py --output=../tests/trezor.log --disable-animation --headless --temporary-profile &
     - cd ../vendor/fido2-tests && pipenv run pytest -s --sim tests/standard/ --vendor trezor
     - mv ./src/.coverage .coverage.test_emu_fido2
   artifacts:
