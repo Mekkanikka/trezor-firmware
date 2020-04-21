@@ -19,6 +19,9 @@ _This usually requires some code changes in the affected software._
 ### Using Connect:
 _This usually only requires updating Connect to the latest version._
 
+See https://github.com/trezor/connect/network/dependents for a full list
+of projects depending on Connect. 
+
 - Exodus (closed source)
 - MagnumWallet (closed source)
 - MyEtherWallet https://github.com/MyEtherWallet/MyEtherWallet
