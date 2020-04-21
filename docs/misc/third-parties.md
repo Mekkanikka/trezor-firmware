@@ -8,9 +8,9 @@ _This usually requires some code changes in the affected software._
 - Electrum https://github.com/spesmilo/electrum
 - HWI https://github.com/bitcoin-core/HWI
 - Trezor Agent https://github.com/romanz/trezor-agent
-- Monero https://github.com/monero-project/monero
 
 ### Using no Trezor libraries
+- Monero https://github.com/monero-project/monero
 - Mycelium Android https://github.com/mycelium-com/wallet-android
 - Mycelium iOS https://github.com/mycelium-com/wallet-ios
 - Blockstream Green Android https://github.com/Blockstream/green_android
@@ -33,4 +33,4 @@ _This usually only requires updating Connect to the latest version._
 - KyberSwap https://github.com/KyberNetwork/KyberSwap
 - Augur https://github.com/AugurProject/augur
 - Augur UI https://github.com/AugurProject/augur-ui
-- Balance Manager https://github.com/balance-io/balance-manager 
+- Balance Manager https://github.com/balance-io/balance-manager
