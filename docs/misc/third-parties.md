@@ -9,6 +9,12 @@ _This usually requires some code changes in the affected software._
 - HWI https://github.com/bitcoin-core/HWI
 - Trezor Agent https://github.com/romanz/trezor-agent
 
+### Using HWI
+_Updating HWI to the latest version should be enough._
+
+- BTCPay https://github.com/btcpayserver/btcpayserver
+- Wasabi https://github.com/zkSNACKs/WalletWasabi
+
 ### Using no Trezor libraries
 - Monero https://github.com/monero-project/monero
 - Mycelium Android https://github.com/mycelium-com/wallet-android
